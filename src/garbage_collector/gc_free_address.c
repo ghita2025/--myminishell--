@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/gc.h"
+#include "../../include/gc.h"
 
 static void	gc_detach(t_gc *node)
 {

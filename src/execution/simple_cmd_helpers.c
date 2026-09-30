@@ -63,7 +63,7 @@ int	type_cmd(char *cmd)
 	position = ft_strrchr(cmd, '/');
 	if (position)
 	{
-		command = ft_strdup(position + 1);
+		return (-1);
 	}
 	return (is_builtin(command));
 }

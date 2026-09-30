@@ -9,10 +9,10 @@ CFLAGS = -Wall -Wextra -Werror -g3
 RLFLAG = -lreadline
 
 SRC = src/main.c \
-		garbage_collector/gc_free_address.c \
-		garbage_collector/gc_free_all.c \
-		garbage_collector/gc_alloc.c \
-		garbage_collector/gc_head.c  \
+		src/garbage_collector/gc_free_address.c \
+		src/garbage_collector/gc_free_all.c \
+		src/garbage_collector/gc_alloc.c \
+		src/garbage_collector/gc_head.c  \
 		src/getters/getters.c \
 		src/getters/reset_getter.c \
 		src/parsing/lexer/token.c \
@@ -67,9 +67,9 @@ SRC = src/main.c \
 
 OBJ = ${SRC:.c=.o}
 
-LIBFT_DIR = ./libft
+LIBFT_DIR = src/libft
 
-LIBFT = libft/libft.a
+LIBFT = src/libft/libft.a
 
 CLEAN = clean
 

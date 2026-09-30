@@ -20,7 +20,7 @@
 # include <limits.h>
 # include <stdint.h>
 # include <fcntl.h>
-# include "../include/minishell.h"
+# include "../../include/minishell.h"
 
 typedef struct s_list
 {

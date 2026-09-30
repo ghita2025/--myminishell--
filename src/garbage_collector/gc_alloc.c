@@ -10,8 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/gc.h"
-#include "../include/exec.h"
+#include "../../include/gc.h"
+#include "../../include/exec.h"
 
 static t_gc	*gc_new(void *content)
 {

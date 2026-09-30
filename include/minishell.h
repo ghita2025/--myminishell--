@@ -22,7 +22,7 @@
 # include <stdbool.h>
 # include <sys/wait.h>
 # include <sys/stat.h>
-# include "../libft/libft.h"
+# include "../src/libft/libft.h"
 # include "gc.h"
 # include "lexer.h"
 # include "expander.h"

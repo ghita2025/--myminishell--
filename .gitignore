@@ -1,10 +1,5 @@
-# Object files
 *.o
-# Binary
-minishell
-# Librearies
 *.a
-# ma3rft wash aydoz
-.vscode
-# ghi zaydin
-info todo *.supp filevalgrind
+*.d
+/minishell
+.DS_Store
